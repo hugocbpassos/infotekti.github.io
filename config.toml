@@ -1,0 +1,22 @@
+baseurl = "https://infotekti.github.io/"
+title = "Infotek TI"
+theme = "pulp"
+canonifyurls = true
+hasCJKLanguage = true
+
+[markup.goldmark.renderer]
+    unsafe = true # Allow user HTML tags
+
+[params]
+    author = "Infotek TI"
+    avatar = "avatar.png"
+    favicon = "favicon.ico"
+    description = "Please write anything here. Profiles, backgrounds, favorite things etc."
+    publicationYear = "2020"
+    custom_css = ["/css/custom.css"]
+
+[[menu.main]]
+    identifier = "email"
+    pre = "<i class='fa fa-envelope fa-lg'></i>"
+    url = "mailto:contato@infotekti.com.br"
+    weight = 40

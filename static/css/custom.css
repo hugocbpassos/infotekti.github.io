@@ -1,0 +1,16 @@
+header .avatar img {
+    position: absolute;
+    width: 250px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+header .avatarMask {
+  clip-path: none;
+  -webkit-clip-path: none;
+}
+
+.author {
+    display: none;
+}
